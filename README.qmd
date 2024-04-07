@@ -1,0 +1,51 @@
+---
+title: "Data Analysis Of Haemapoetic Stem Cell Linages"
+format: html
+engine: knitr
+execute:
+  echo: false
+  include: true
+  error: false
+  message: false
+  warning: false
+editor: visual
+bibliography: references.bib
+---
+
+![](images/Haemopetic stem cell heirarchy.png){fig-align="center" width="607" height="243"}
+
+Documentation for the project "Data Analysis of Hematopoietic Stem Cell Lineages," detailing the exploration of the differentiation hierarchy of hematopoietic stem cells (HSCs) through single-cell RNA-sequencing data and confriming assumtions using quantatative PCR.
+
+## Project Description
+
+Hematopoietic stem cells (HSCs) are at the apex of the differentiation hierarchy and defined by their ability to differentiate and produces the full spectrum of mature blood cells and self-renew to sustain haematopoiesis. Long-term hematopoietic stem cells (LT.HSCs) sit within this HSC pool and are of much interest due to their capacity to support long-term hematopoietic reconstitution [@gur-cohen2016; @notta2011]. Utilising surface markers for these cells has allowed for HSC purities of more than 50%. However, none have allowed for populations of a single homogeneous cell type [@adam2005; @kent2009; @zhang2005; @nestorowa2016].
+
+Recently there has been the development of single-cell profiling techniques which are able to profile transitional cells and resolve the heterogeneity within these populations' at large numbers [@bendall2014; @jaitin2014; @mahata2014]. This should allow the identification of novel HSC markers [@nestorowa2016].
+
+We utilised single cell RNA-sequencing data collected by [@nestorowa2016] which analysed over 1600 single HSPC transcriptomes which were profiled into LT-HSCs, HSPCs and Progenitor cells using FACS index sorting and using wide gating to allow for analysis of transitional cells. This allowed us to find a new marker of LT.HSCs.
+
+## Dates
+
+-   **Start Date**: 05/04/24
+-   **Last Updated Date**: 07/04/24
+
+## Contact Information
+
+-   **Author**: Joseph Womersley
+-   **Email**: Joe.Womersley02\@gmail.com
+
+## Folder Structure
+
+## Software Requirements
+
+### R Environment
+
+-   **R Version**: 4.1.0
+-   **Packages**:
+    -   tidyverse (1.3.0): For data manipulation and visualization. (Wickham et al., 2019)
+    -   readxl (1.3.1): For reading Excel files. (Wickham and Bryan, 2019)
+    -   pheatmap (1.0.12): For generating heatmaps. (Kolde, 2019)
+    -   Plotly (4.9.2.1): For interactive visualizations. (Sievert, 2020)
+    -   sessioninfo (1.1.1): For reporting R session information.
+
+References cited within the project report itself are crucial for the report's academic integrity and understanding but are not necessarily included in the README unless they directly inform the README's content.
